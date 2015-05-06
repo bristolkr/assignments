@@ -1,0 +1,5 @@
+# TDD test driven dev
+# BDD behavioral driven dev
+# both involve writing test suites before developing code
+require 'minitest/autorun'
+require './book'

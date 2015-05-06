@@ -1,0 +1,21 @@
+# 1. Assign "Hello World" to a variable message.
+greet_user = "Hello World"
+
+# 2. Assign a different string to a different variable.
+dog = "meow"
+
+# 3. Assign a number to a variable.
+cat = 2
+
+# 4. Use string interpolation to display the number from exercise 3 in a string.
+puts "I have #{cat} cats."
+
+# 5. Make an array of at least four of your favorite movies or books or bands.
+band_array = ["Foo Fighters", "AltJ", "Soundgarden", "Manchester Orchestra"]
+
+# 6. Make a hash of information about yourself with at least four key-value pairs.
+about_me = { "name" => "Kelly",
+	"hometown" => "Newburg",
+	"gender" => "Female",
+	"occupation" => "Crazy cat lady"
+}
