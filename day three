@@ -1,5 +1,14 @@
 # TDD test driven dev
 # BDD behavioral driven dev
 # both involve writing test suites before developing code
+# variables starting with @ are instance variables
+# variables starting with $ are global. (You won't write this often at all, because it WILL override other variables across multiple files)
+#__FILE__ is anoher universal variable which will always show he path to the working file.
+# .dirname lists the directory path
+# $LOAD_PATH is equiv to $:
+# we use LOAD PATH to tell Ruby where to look for something. We use this if we need to pull another file from another place into our working file, like for testing.
+#
+
+
 require 'minitest/autorun'
 require './book'
